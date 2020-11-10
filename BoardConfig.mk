@@ -20,3 +20,6 @@ DEVICE_PATH := device/huawei/prague
 
 # Assert
 TARGET_OTA_ASSERT_DEVICE := prague,hi6250
+
+# Security patch level
+VENDOR_SECURITY_PATCH := 2019-01-01
