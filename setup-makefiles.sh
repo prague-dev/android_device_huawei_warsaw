@@ -18,7 +18,7 @@
 set -e
 
 # Required!
-export DEVICE=prague
+export DEVICE=warsaw
 export DEVICE_COMMON=hi6250-common
 export VENDOR=huawei
 

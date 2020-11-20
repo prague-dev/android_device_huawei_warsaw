@@ -17,7 +17,7 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o.mk)
 
 # call the proprietary setup
-$(call inherit-product-if-exists, vendor/huawei/prague/prague-vendor.mk)
+$(call inherit-product-if-exists, vendor/huawei/warsaw/warsaw-vendor.mk)
 
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
@@ -34,7 +34,7 @@ TARGET_SCREEN_WIDTH := 1080
 
 # Security patch level
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.lineage.build.vendor_security_patch=2019-01-01
+    ro.lineage.build.vendor_security_patch=2019-03-01
 
 # Inherit from hi6250-common
 $(call inherit-product, device/huawei/hi6250-common/hi6250.mk)

@@ -16,10 +16,10 @@
 # inherit from common hi6250-common
 -include device/huawei/hi6250-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/huawei/prague
+DEVICE_PATH := device/huawei/warsaw
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := prague,hi6250
+TARGET_OTA_ASSERT_DEVICE := warsaw,hi6250
 
 # Security patch level
-VENDOR_SECURITY_PATCH := 2019-01-01
+VENDOR_SECURITY_PATCH := 2019-03-01
