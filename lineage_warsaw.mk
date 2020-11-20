@@ -27,14 +27,14 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit from prague device
-$(call inherit-product, device/huawei/prague/device.mk)
+# Inherit from warsaw device
+$(call inherit-product, device/huawei/warsaw/device.mk)
 
 # LineageOS
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions
-PRODUCT_NAME := lineage_prague
-PRODUCT_DEVICE := prague
+PRODUCT_NAME := lineage_warsaw
+PRODUCT_DEVICE := warsaw
 PRODUCT_BRAND := Huawei
-PRODUCT_MODEL := HUAWEI P8 lite 2017
+PRODUCT_MODEL := HUAWEI P10 lite
